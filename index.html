@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE-SVCE | Student Branch</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="container-fluid">
+      <div class="nav justify-content-center" id="container" >
+        <ul class="nav">
+          <li>
+            <img src="./assets/IEEE_logo_BLACK.png" style="width: 12rem" />
+          </li>
+          <li class="nav_item">
+            <a href="#" class="nav_link">HOME</a>
+          </li>
+          <li class="nav_item">
+            <a href="#2" class="nav_link">ABOUT</a>
+          </li>
+          <li class="nav_item">
+            <a href="#3" class="nav_link">EVENTS</a>
+          </li>
+          <li class="nav_item">
+            <a href="./crew.html" class="nav_link">CREW</a>
+          </li>
+          <li class="nav_item">
+            <a href="./gallery.html" class="nav_link">GALLERY</a>
+          </li>
+          <li class="nav_item">
+            <a href="#4" class="nav_link">JOIN US</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <div class="overlay-content">
+        <ul>
+          <li class="nav_item">
+            <a href="#" class="nav_link">HOME</a>
+          </li>
+          <li class="nav_item">
+            <a href="#2" class="nav_link">ABOUT</a>
+          </li>
+          <li class="nav_item">
+            <a href="#3" class="nav_link">EVENTS</a>
+          </li>
+          <li class="nav_item">
+            <a href="#5" class="nav_link">CREW</a>
+          </li>
+          <li class="nav_item">
+            <a href="./gallery.html" class="nav_link">GALLERY</a>
+          </li>
+          <li class="nav_item">
+            <a href="#4" class="nav_link">JOIN US</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1rem;
+        position: absolute;
+        z-index: 100;
+      "
+    >
+      <span
+        id="w"
+        style="
+          font-size: 40px;
+          cursor: pointer;
+          color: #000;
+          margin: 1rem 0.2rem;
+        "
+        onclick="openNav()"
+        >&#9776;
+      </span>
+      <div id="lo">
+        <img src="./assets/IEEE_logo_BLACK.png" style="width: 15rem" />
+      </div>
+    </div>
+
+    <div class="slider" >
+      <figure>
+        <div class="slide">
+          <!--<p>image one</p>-->
+          <img src="./assets/crw.jpg" alt="a" />
+        </div>
+        <div class="slide">
+          <!--<p>image two/p>-->
+          <img src="./assets/g2.JPG" alt="a" />
+        </div>
+        <div class="slide">
+          <!--<p>image three</p>-->
+          <img src="./assets/g4.JPG" alt="a" />
+        </div>
+        <div class="slide">
+          <!--<p>image four</p>-->
+          <img src="./assets/g3.JPG" alt="a" />
+        </div>
+        <div class="slide">
+          <!--<p>image five</p>-->
+          <img src="./assets/g1.JPG" alt="a" />
+        </div>
+      </figure>
+    </div>
+    <section class="about_img">
+      <div class="about_content" id="2">
+        <h2 class="about_heading">ABOUT US</h2>
+        <div class="about_parah">
+          <p>
+            IEEE Student Chapter of SVCE which falls under Region 10 of IEEE
+            Madras Section has been continuously propelling forward the
+            innovative student community of SVCE since it's inception. The IEEE
+            Student Chapter of SVCE is a fully student organized club consisting
+            of students from EEE and ECE departments respectively. The club
+            stays true to the original testament of IEEE by organizing various
+            events and conferences in order to expand and exploit the technical
+            and scientific knowledge being taught in the curriculum. The club
+            serves as a medium through which the plethora of knowledge of latest
+            advancements in technology is being reached to the whole student
+            community to spurt out ideas and strengthen the intuition of the
+            students.
+          </p>
+        </div>
+      </div>
+      
+    </section >
+    <section class="events" id="3">
+      <div class="eve_head">
+        <h2 class="eve_title" style="font-size: 50px">OUR EVENTS</h2>
+        <p
+          class="eve_parah"
+          style="font-weight: 100; width: 450px; text-align: center"
+        >
+          We conduct both technical and non-technical events, workshops and
+          competitions throughout the year
+        </p>
+      </div>
+  
+      <div class="event_images">
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/PCB Workshop-1.jpg"
+              alt="ROBOFEST"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>PCB</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/Robotics workshop-1.jpg"
+              alt="WORKSHOP"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>WORKSHOP</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/CHASE-1.jpg"
+              alt="CIRCUITRIX"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>CHASE</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/Circuitrix-1.jpg"
+              alt="CIRCUITRIX"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>CIRCUITRIX</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/Robofest-1.jpg"
+              alt="CIRCUITRIX"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>ROBOFEST</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="eventimg">
+            <img
+              src="./assets/mpc.JPG"
+              alt="CIRCUITRIX"
+              style="width: 16.5rem; height: 16.5rem"
+            />
+          </div>
+          <div class="event_content">
+            <p>MODEL PHOEBUS CARTEL</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <div class="eve_head" id="5">
+      <h2 class="eve_title" style="font-size: 50px">CORE TEAM 2021-22</h2>
+      <p
+        class="eve_parah"
+        style="font-weight: 100; width: 600px; text-align: center"
+      >
+        The main ingredient of stardom is the rest of the team
+      </p>
+    </div>
+    <section class="di" style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
+    <div class="core_team">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" style="text-align: center; ">
+       
+        <div class="swiper-slide">
+            <div class="imgBx">
+              <img src="./crew/SWETHA EEE.jpg" alt="a" />
+            </div>
+            <div class="contentBx">
+              <h4>Swetha G M</h4>
+              <h5>President</h5>
+            </div>
+          
+        </div>
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/nivetha.JPG" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Nivedha M</h4>
+            <h5>Vice-president</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Adithyan_Joint Secretary.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Adithyan M</h4>
+            <h5>Joint Secretary</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/swaeta.L.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Swaeta L</h4>
+            <h5>Creative Director</h5>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/abinaya ece.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Abinaya B</h4>
+            <h5>Secretary</h5>
+          </div>
+        </div>
+   
+      </div>
+    </div>
+   
+  </div>
+  <div class="crew_head">
+    <h2 class="eve_title" style="font-size: 40px; margin-top: 1rem; text-align:center;">TREASURERS & TECH HEADS</h2>    
+  </div>
+  <div class="core1_team">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" style="text-align: center; ">
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Rishabanath_Treasurer .jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Rishabanath K</h4>
+            <h5>Treasurer</h5>
+          </div>
+        </div>
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/anushri muthukumar.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Anushri M</h4>
+            <h5>Treasurer</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img
+              src="./crew/Shruthi_S_Treasurer - Shruthi Sreedhar.jpg"
+              alt="a"
+            />
+          </div>
+          <div class="contentBx">
+            <h4>Shruthi S</h4>
+            <h5>Treasurer</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/DHRUV S EE.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Dhruv S</h4>
+            <h5>Treasurer</h5>
+          </div>
+          <div class="sci">
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      
+
+     
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Hariharan.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Hari HaraSudhan P</h4>
+            <h5>Chief Executive Member</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/DIVIYA BHAVAANI M B EE.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Diviya Bhavaani M B</h4>
+            <h5>Head of Marketing</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/ramyaa.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Ramyaa D</h4>
+            <h5>Head of Design</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+  <div class="crew_head">
+    <h2 class="eve_title" style="font-size: 40px; margin: 3rem 0; text-align:center;">TECHNICAL COMMITTEE</h2>    
+  </div>
+  <div class="core2_team">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" style="text-align: center; ">
+       
+      
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Ishwarya_TechnicalCommitee -.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Ishwarya L 
+            <h5>Technical Committee</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Niraimadi_Technical Committee .jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Niraimadi S</h4>
+            <h5>Technical Committee</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Nithya_Technicalcommittee.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Nithya M</h4>
+            <h5>Technical Committee</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Deepika_Technical Committee -.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Deepika E</h4>
+            <h5>Technical Committee</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Nithya S_Technical Committee.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Nithya S</h4>
+            <h5>Technical Committee</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Dhanush Ragav.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Dhanush Ragav P</h4>
+            <h5>Design</h5>
+          </div>
+        </div>
+      
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/sharon monisha.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Sharon Monisha</h4>
+            <h5>Human Resources</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Mohanishwar.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Mohanishwar K
+            <h5>Social Media and Marketing</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="crew_head">
+    <h2 class="eve_title" style="font-size: 40px; margin: 3rem 0; text-align:center;">EXECUTIVE MEMBERS</h2>    
+  </div>
+  <div class="core2_team">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" style="text-align: center; ">
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/manoj.jpg " alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Manoj D</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+       
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Miruthina Rashmi.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Miruthina Rashmi S</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Deepak H.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Deepak H</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+        
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Abiramavalli M.jpeg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Abiramavalli M</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+      
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Sharathkumar.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Sharathkumar V G</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/HAREESH V EE.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Hareesh V</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Deepak Balasubramanian P EE.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Deepak Balasubramanian P</h4>
+            <h5>Executive Member</h5>
+          </div>
+        
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./crew/Narendran K EEE.jpg" alt="a" />
+          </div>
+          <div class="contentBx">
+            <h4>Narendran K</h4>
+            <h5>Executive Member</h5>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</section>
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+     <!-- Swiper JS -->
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  
+     <!-- Initialize Swiper -->
+     <script>
+       var swiper = new Swiper(".mySwiper", {
+         effect: "coverflow",
+         grabCursor: true,
+         centeredSlides: true,
+         slidesPerView: "auto",
+         coverflowEffect: {
+           rotate: 0,
+           stretch: 0,
+           depth: 200,
+           modifier: 1,
+           slideShadows: true,
+         },
+         loop:true,
+         autoplay: {
+         delay: 2000,
+         disableOnInteraction: false
+       },
+     
+       navigation: {
+         nextEl: ".swiper-button-next",
+         prevEl: ".swiper-button-prev"
+       }
+       });
+     </script>
+         <div
+         class="crew_head"
+         style="
+           margin-top: 40rem;
+           margin: 3rem 0;
+           text-align: center;
+           margin-top: 10rem;
+         "
+       >
+         <h5 id="4" style="color: #7f00fd">Join Us</h5>
+         <h2 class="eve_title" style="font-size: 50px">MEMBERSHIP</h2>
+       </div>
+       <section>
+       <div
+         class="row"
+       >
+         <div
+           class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing" id="a"
+           style="user-select: auto"
+         >
+           <div class="border p-5 text-center rounded" style="user-select: auto">
+             <h3 style="user-select: auto">Benefits</h3>
+             <br style="user-select: auto" />
+             <ul style="text-align: left; list-style: circle">
+               <li style="padding: 10px 0">
+                 New resources, opportunities and many discounts
+               </li>
+               <li style="padding: 10px 0">
+                 Advance your career in the right direction
+               </li>
+               <li style="padding: 10px 0">
+                 Chance to participate in various IEEE conferences across the globe
+               </li>
+             </ul>
+             <p style="user-select: auto">
+               <a
+                 href="https://www.ieee.org/membership/index.html"
+                 class="btn btn-lg btn-primary rounded-0 btn-block"
+                 style="
+                   background: linear-gradient(320deg, #3f00e6, #7f00fd);
+                   border: none;
+                 "
+                 >Know More</a
+               >
+             </p>
+           </div>
+         </div>
+   
+         <div
+           class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing"
+           style="user-select: auto" id="b"
+         >
+           <div class="border p-5 text-center rounded" style="user-select: auto">
+             <h3 style="user-select: auto">Join a Society</h3>
+             <br style="user-select: auto" />
+             <ul
+               class="list-unstyled ul-check text-left success mb-5"
+               style="text-align: left; list-style: circle"
+             >
+               <li style="padding: 10px 0">
+                 Stay updated with latest trends in technology
+               </li>
+               <li style="padding: 10px 0">
+                 Network with colleagues locally and abroad
+               </li>
+               <li style="padding: 10px 0">
+                 Collaborate on research and projects with leading experts and many
+                 such opportunities
+               </li>
+             </ul>
+             <p style="user-select: auto">
+               <a
+                 href="https://www.ieee.org/communities/societies/index.html"
+                 class="btn btn-lg btn-primary rounded-0 btn-block"
+                 style="
+                   user-select: auto;
+                   background: linear-gradient(320deg, #3f00e6, #7f00fd);
+                   border: none;
+                 "
+                 >Know More</a
+               >
+             </p>
+           </div>
+         </div>
+   
+         <div
+           class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing"
+           style="user-select: auto" id="c"
+         >
+           <div class="border p-5 text-center rounded" style="user-select: auto">
+             <h3 style="user-select: auto">Join IEEE</h3>
+             <br style="user-select: auto" />
+             <ul
+               class="list-unstyled ul-check text-left success mb-5"
+               style="text-align: left; list-style: circle"
+             >
+               <li style="padding: 10px 0">
+                 Be a part of the world’s largest technology community
+               </li>
+               <li style="padding: 10px 0">
+                 Join professional and experts to shape your career
+               </li>
+               <li style="padding: 10px 0">
+                 Acquire new skills, and advance your professional growth and
+                 development
+               </li>
+             </ul>
+             <p style="user-select: auto">
+               <a
+                 href="https://www.ieee.org/membership/join/index.html?WT.mc_id=hc_join"
+                 class="btn btn-lg btn-primary rounded-0 btn-block"
+                 style="
+                   user-select: auto;
+                   background: linear-gradient(320deg, #3f00e6, #7f00fd);
+                   border: none;
+                 "
+                 >Know More</a
+               >
+             </p>
+           </div>
+         </div>
+       </div>
+    </section>
+     <footer style="height: 200px;">
+      <img src="./assets/IEEE-logo.png" style="width: 18rem; left: 0" />
+
+      <div>
+        <a href="mailto: ieee@svce.ac.in"target="_blank"><img src="./icons/email.png" alt="a" /></a>
+        
+
+        <a href="https://twitter.com/svce_ieee"><img src="./icons/twitter.png" alt="a" /></a>
+      
+      </div>
+      <div>
+       
+      
+
+        <a href="https://www.instagram.com/ieee__svce"><img src="./icons/instagram.png" alt="a" /></a>
+      <a href="https://www.linkedin.com/company/ieee-student-chapter/"><img src="./icons/linkedin.png" alt="a"></a>
+      </div>
+      <div style="display: flex; flex-direction: column;align-items: center;">
+        <img src="./icons/phone-call.png" alt="a" />
+        <p>Adithyan-9841279782</p>
+      </div>
+
+    </footer>
+   
+   
+    <script>
+      let bgImage = document.querySelector(".about_img");
+
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.fromTo(
+        bgImage,
+        {
+          clipPath: "circle(8% at 50% 20%)",
+        },
+        {
+          clipPath: "circle(75% at 50% 50%)",
+          ease: "none",
+
+          scrollTrigger: {
+            trigger: bgImage,
+            scrub: 1,
+            start: "top center",
+            end: "top center-=200",
+          },
+        }
+      );
+    </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+
+
+   
+  </body>
+</html>
