@@ -38,11 +38,11 @@ body::-webkit-scrollbar-thumb
 {
 	border-radius: 10px;
 	background-image: -webkit-gradient(linear,
-									   left bottom,
-									   left top,
-									   color-stop(0.44, rgb(109, 81, 236)),
-									   color-stop(0.72,  #3f00e6),
-									   color-stop(0.86, #5606b3));
+		           left bottom,
+			   left top,
+			   color-stop(0.44, rgb(109, 81, 236)),
+			   color-stop(0.72,  #3f00e6),
+			   color-stop(0.86, #5606b3));
 }
 ul {
   list-style: none;
