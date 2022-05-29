@@ -8,7 +8,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+html { 
+  scroll-behavior: smooth; 
+}
 body {
   background: rgb(34, 34, 34);
   z-index: -1;
@@ -385,6 +387,15 @@ ul {
   .overlay{
     position: fixed;
   }
+
+.hide{
+  display: none;
+}
+
+.hov:hover + .hide{
+  display: block;
+  color: #fff;
+}
  
   @media (min-width: 768px){
     .slider figure img{ 
@@ -411,22 +422,32 @@ ul {
     #container{
         width: 90%;
         margin: 1rem 0.5rem;
-        background-color: rgb(255, 255, 255);
         position: absolute;
         z-index: 100;
         width: 96%;
+        background: rgba(255, 255, 255, 0.09);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.9px);
+-webkit-backdrop-filter: blur(1.9px);
+border: 1px solid rgba(255, 255, 255, 0.25);
+
      
  }
+
  .nav {
      display: flex;
      font-weight: 100;
      text-transform: uppercase;
      padding: 3px 0.5px;
      font-size: 7px;
+     
    
    }  
    .nav_link{
      font-size: 13px;
+     color: #fff;
+
    } 
  .nav_lg {
      padding: 8px 0;
