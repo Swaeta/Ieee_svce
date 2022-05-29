@@ -17,7 +17,7 @@ body {
   color: #fff;
   width: 100%;
   scrollbar-width: thin;
-  scroll-behavior: smooth;
+  
   overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
