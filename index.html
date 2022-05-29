@@ -56,6 +56,9 @@
           <li class="nav_item">
             <a href="#4" class="nav_link">JOIN US</a>
           </li>
+          <li class="nav_item">
+            <a href="./knowMore.html" class="nav_link">KNOW MORE</a>
+          </li>
         </ul>
       </div>
     </section>
@@ -158,7 +161,8 @@
       </div>
       
     </section >
-    <section class="events" id="3">
+    <div id="3"></div>
+    <section class="events" >
       <div class="eve_head">
         <h2 class="eve_title" style="font-size: 50px">OUR EVENTS</h2>
         <p
@@ -240,17 +244,17 @@
             />
           </div>
           <div class="event_content">
-            <p>MODEL PHOEBUS CARTEL</p>
+            <p id="5">MODEL PHOEBUS CARTEL</p>
           </div>
         </div>
       </div>
     </section>
     
-    <div class="eve_head" id="5">
+    <div class="eve_head" >
       <h2 class="eve_title" style="font-size: 50px">CORE TEAM 2021-22</h2>
       <p
         class="eve_parah"
-        style="font-weight: 100; width: 600px; text-align: center"
+        style="font-weight: 100; width: 600px; text-align: center; margin-bottom: 0;"
       >
         The main ingredient of stardom is the rest of the team
       </p>
@@ -258,7 +262,7 @@
     <section class="di" style="display: flex;flex-direction: column; justify-content: center; align-items: center;">
     <div class="core_team">
     <div class="swiper mySwiper">
-      <div class="swiper-wrapper" style="text-align: center; ">
+      <div class="swiper-wrapper" style="text-align: center; margin-top: 0;">
        
         <div class="swiper-slide">
             <div class="imgBx">
@@ -569,7 +573,7 @@
           </div>
           <div class="contentBx">
             <h4>Narendran K</h4>
-            <h5>Executive Member</h5>
+            <h5 >Executive Member</h5>
           </div>
         </div>
       
@@ -615,7 +619,8 @@
        }
        });
      </script>
-         <div
+     <div id="4"></div>
+         <div 
          class="crew_head"
          style="
            margin-top: 40rem;
@@ -624,7 +629,7 @@
            margin-top: 10rem;
          "
        >
-         <h5 id="4" style="color: #7f00fd">Join Us</h5>
+         <h5  style="color: #7f00fd">Join Us</h5>
          <h2 class="eve_title" style="font-size: 50px">MEMBERSHIP</h2>
        </div>
        <section>
@@ -738,7 +743,7 @@
          </div>
        </div>
     </section>
-     <footer style="height: 200px;">
+    <footer style="height: 200px;">
       <img src="./assets/IEEE-logo.png" style="width: 18rem; left: 0" />
 
       <div>
@@ -749,20 +754,21 @@
       
       </div>
       <div>
-       
-      
 
         <a href="https://www.instagram.com/ieee__svce"><img src="./icons/instagram.png" alt="a" /></a>
       <a href="https://www.linkedin.com/company/ieee-student-chapter/"><img src="./icons/linkedin.png" alt="a"></a>
       </div>
       <div style="display: flex; flex-direction: column;align-items: center;">
-        <img src="./icons/phone-call.png" alt="a" />
-        <p>Adithyan-9841279782</p>
+        <img src="./icons/phone-call.png" alt="a" class="hov"/>
+        <p class="hide">Adithyan-9841279782</p>
       </div>
 
     </footer>
-   
-   
+   <div style="background-image: linear-gradient(320deg, #3f00e6, #7f00fd); padding: 2px 2rem; text-align: center;">
+     <p>@Copyrights belong to IEEE Student Branch, SVCE </p>
+   </div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
     <script>
       let bgImage = document.querySelector(".about_img");
 
